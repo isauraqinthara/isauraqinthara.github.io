@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Nunito&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>Aither Indonesia</title>
+</head>
+
+<body>
+<!-- logo navbar -->
+    <nav class="navbar navbar-expand-sm fixed-top">
+        <div class="navbar-bg"></div>
+        <a class="navbar-brand" href="https://www.instagram.com/isauraqinthara/">
+            <img src="logo.png" height="40px">
+        </a>
+<!-- top navbar -->
+        <div class="container">
+            <ul class="navbar-nav"> 
+            <div class="row">
+                <li class="nav-item">
+                    <a class="nav-link" href=" ">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href=" ">Supported By</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href=" " id="navbardrop" data-toggle="dropdown">Contact Us</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="https://www.instagram.com/isauraqinthara/">Instagram</a>
+                      <a class="dropdown-item" href=" ">Line</a>
+                      <a class="dropdown-item" href="http://wa.me/6282240024027">Whatsapp</a>
+                  </div>
+                  </div>
+                  </li>
+            </ul>
+        </div>
+    </nav>
+<!-- page 1 -->
+    <div class="container border">
+        <div class="row border">
+            <div class="col-6 border">
+                <div class="row border">
+                    <div class="col-12 page1-1 border">
+                        <p><b>Launching<br>Soon!</b></p>
+                    </div>
+                    <div class="col-12 page1-2 border">
+                        <p>In the memantime, Sign up for our monthly newsletter to <b>stay up date</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
