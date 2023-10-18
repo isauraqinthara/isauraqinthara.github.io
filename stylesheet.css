@@ -1,0 +1,97 @@
+/* warna background */
+body {
+    position: relative;
+    width: 100%;
+    height: 6528px;
+    background: linear-gradient(356.35deg, #39BEAB 0%, #3F983E 25.54%, #3F983E 31.42%, #BFC94E 48.04%, #449F5C 80.89%, #50800B 98.27%);
+}
+
+/* logo navbar */
+.navbar-brand {
+    z-index: 1;
+}
+
+/* Warna latar belakang navbar */
+.navbar-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    background-color: linear-gradient (to bottom, rgba(34, 105, 44, 0.5), rgba(34, 105, 44, 0));
+    z-index: 0;
+}
+
+.navbar-bg::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 75px;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom, rgba(34, 105, 44, 0.5), rgba(34, 105, 44, 0));
+    z-index: -1;
+}
+
+/* top navbar */
+.navbar-nav {
+    margin-left: auto;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    z-index: 1;
+}
+
+.nav-link {
+    color: whitesmoke;
+}
+
+.dropdown-item {
+    font-size: 14px;
+}
+
+.ellipse1 {
+    width: 650px;
+    height: 650px;
+    background: #3b8a3a;
+    border-radius: 100%;
+    position: absolute;
+    top: 200px; /* Menggeser ke bawah */
+    left: 1000px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Launching */
+.page1-1 {
+    position: absolute;
+    margin-top: 200px;
+    left: auto;
+    top: auto;
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-size: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 1;
+}
+
+.page1-2 {
+    position: absolute;
+    margin-top: 0px;
+    left: auto;
+    top: auto;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
