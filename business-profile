@@ -450,6 +450,45 @@
         </div>
     </div>
 </div>
+
+<!-- page 9 -->
+<span class="team">FILL YOUR CONTACT</span>
+<div class="container page9">
+    <form id="contact-form" action="action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+        <label for="country">Country</label>
+        <select id="country" name="country">
+            <option value="Indonesia">Indonesia</option>
+            <option value="Singapura">Singapura</option>
+            <option value="Malaysia">Malaysia</option>
+        </select>
+  
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+        <input type="submit" value="Submit">
+    </form>
 </div>
+
+<!-- footer -->
+<div class="footer">
+    <div class="footer-logo">
+        <img src="aither.png" alt="Aither Logo">
+    </div>
+    <div class="footer-social">
+        <a href="https://www.instagram.com/isauraqinthara" target="_blank">
+            <img src="instagram.png" alt="Instagram">
+        </a>
+        <a href="mailto:isauraqinthara28@gmail.com">
+            <img src="email.png" alt="Email">
+        </a>
+    </div>
+</div>
+
 </body>
 </html>
